@@ -42,6 +42,7 @@ app.get('/prestamos/:id_prestamo', async (req, res) => {
         const [rows] = await pool.query(`
         SELECT 
             p.id_prestamo,
+            p.id_usuario,
             p.fecha_prestamo,
             p.fecha_devolucion,
             p.estado,

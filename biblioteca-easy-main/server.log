@@ -1,0 +1,12 @@
+[dotenv@17.2.1] injecting env (5) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+servidor prepado correctamente en http://localhost:3000
+❌ Error al conectar con la base de datos: {
+  code: 'ECONNREFUSED',
+  errno: -111,
+  sqlState: undefined,
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  address: '127.0.0.1',
+  database: 'biblioteca_virt',
+  user: 'root',
+  port: 3306
+}
